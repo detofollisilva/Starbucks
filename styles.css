@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    /*zera a margem*/
+    padding: 0;
+    /*zera o padding*/
+    box-sizing: border-box;
+    /*faz com que o padding e a borda sejam incluídos na largura e altura dos elementos*/
+    font-family: "Poppins", sans-serif;
+    /*fonte do texto*/
+
+}
+
+body {
+    padding: 20px;
+    /*espaçamento do corpo*/
+    padding-right: 100px;
+    /*espaçamento da direita*/
+    padding-left: 100px;
+    /*espaçamento da esquerda*/
+
+    .conteudo {
+        width: 100%;
+        /*tamanho da caixa*/
+        display: flex;
+        /*deixa os elementos na horizontal*/
+        align-items: center;
+        /*alinha os elementos no centro*/
+        justify-content: space-between;
+        /*espaçamento entre os elementos*/
+    }
+
+    .caixa-texto {
+        width: 600px;
+        /*tamanho da caixa de texto*/
+        margin-right: 20px;
+        /*espaçamento da caixa de texto*/
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        /*cor do texto*/
+        font-size: 60px;
+        /*tamanho do texto*/
+        font-weight: bold;
+        /*deixa o texto em negrito*/
+    }
+
+    span {
+        color: rgb(20, 83, 31);
+        /*cor do texto*/
+        font-size: 70px;
+        /*tamanho do texto*/
+        font-weight: bold;
+        /*deixa o texto em negrito*/
+
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        margin-top: 20px;
+        /*espaçamento do botão*/
+        padding: 10px;
+        /*espaçamento do botão*/
+        background-color: rgb(17, 117, 34);
+        /*cor de fundo*/
+        color: white;
+        /*cor da letra*/
+        font-size: 16px;
+        /*tamanho da letra*/
+        border: none;
+        /*tira a borda*/
+        border-radius: 40px;
+        /*deixa o botão arredondado*/
+        cursor: pointer;
+        /*muda o cursor quando passa por cima do botão*/
+        transition: 0, 6s;
+        /*tempo de transição*/
+    }
+
+    button:hover {
+        background-color: rgb(16, 59, 6);
+        /*cor de fundo quando passa o mouse por cima*/
+    }
+
+    .caixa-imagem {
+        width: 600px;
+        /*tamanho da caixa da imagem*/
+        display: flex;
+        /*deixa a imagem na horizontal*/
+        align-items: center;
+        /*alinha a imagem no centro*/
+        justify-content: end;
+        /*alinha a imagem na direita*/
+        margin-top: 250px;
+        /*espaçamento da imagem em relação ao topo*/
+    }
+
+    .starbucks {
+        width: 340px;
+        /*tamanho da imagem*/
+    }
+
+    .menu {
+        display: flex;
+        /*deixa os elementos na horizontal*/
+        justify-content: center;
+        /*alinha os elementos no centro*/
+    }
+
+    .botao-menu {
+        width: 60px;
+        /*tamanho do botão*/
+        cursor: pointer;
+        /*muda o cursor quando passa por cima do botão*/
+        transition: 0, 5s;
+        /*tempo de transição*/
+    }
+
+    .botao-menu:hover {
+        transform: translateY(-30px);
+        /*move o botão para cima quando passa o mouse por cima*/
+
+    }
+}
