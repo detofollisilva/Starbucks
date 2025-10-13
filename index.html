@@ -6,45 +6,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/09/11/19/20250911190621-JM96R9IU.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet"> <!-- linkando a fonte do google fonts -->
-    <title>StarBacks DevClub</title> <!-- título da página -->
-    <link rel="stylesheet" href="styles.css"> <!-- linkando o arquivo css -->
-
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>StarBacks DevClub</title>
 </head>
 
 <body>
+    <div class="circulo"></div>
+
+    <img src="img/logo.png" alt="logo starbucks" class="logo">
 
 
-    <img src="img/logo.png" alt="logo starbucks">
+    <div class="caixa-conteudo">
 
-    <div class="conteudo"> <!-- div é uma caixa de conteúdo (DIVISÒRIA) -->
-        <div class="caixa-texto">
-            <h1>It's not just Coffee It's <span>Starbucks</span> </h1>
-            <p>A Starbucks é a maior rede de cafeterias do mundo, uma empresa multinacional norte-americana com sede em
-                Seattle,
-                que oferece não apenas cafés, mas também uma variedade de bebidas quentes e frias, chás, sucos, doces e
-                sanduíches.
-                Fundada em 1971, a Starbucks transformou a cultura do café ao criar um espaço para socializar,
-                trabalhar e se reunir, oferecendo uma experiência completa de cafeteria, e não apenas um produto. </p>
-            <button>Clique no SININHO</button>
+        <div class="caixa-textos">
+
+            <h2>It's not just Coffee It's <span class="texto-starbucks">Starbucks</span> </h2>
+            <p class="paragrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sit qui, illum
+                mollitia, quo iste nulla
+                voluptate rem quibusdam amet cum eius pariatur blanditiis nostrum maxime commodi doloremque, ad facilis?
+            </p>
+            <button>Clique para saber MAIS!</button>
         </div>
 
         <div class="caixa-imagem">
-            <img class="starbucks" src="img/img1.png" alt="copo starbucks">
-
+            <img src="img/img1.png" alt="copo starbucks" class="imagem-copo">
         </div>
+
     </div>
 
-    <div class="menu">
-        <img class="botao-menu" src="img/thumb1.png" alt="copo botão">
-        <img class="botao-menu" src="img/thumb2.png" alt="copo botão">
-        <img class="botao-menu" src="img/thumb3.png" alt="copo botão">
+
+    <div class="caixa-menu">
+
+        <img
+         src="img/thumb1.png" 
+        class="botao-menu" 
+        onclick="trocaImagem('img/img1.png'); trocaFundo('#017143')"
+        >
+
+        <img 
+        src="img/thumb2.png" 
+        class="botao-menu" 
+        onclick="trocaImagem('img/img2.png'); trocaFundo('#eb7495')"
+        >
+
+        <img 
+        src="img/thumb3.png" 
+        class="botao-menu" 
+        onclick="trocaImagem('img/img3.png'); trocaFundo('#d752b1')"
+        >
     </div>
+
+
 
 </body>
+<script src="scripts.js"></script>
 
 </html>
