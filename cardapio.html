@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Starbucks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: #f8f8f8;
+            color: #333;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            padding: 40px;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        h1 {
+            color: #017143;
+            margin-bottom: 20px;
+        }
+
+        .pdf-container {
+            width: 100%;
+            height: 90vh;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #017143;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            margin-bottom: 25px;
+        }
+
+        .btn:hover {
+            background-color: #00b368;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nosso Cardápio</h1>
+
+    <!-- Botão principal de retorno -->
+    <a href="index.html" class="btn">🏠 Página Principal</a>
+
+    <!-- Exibe o PDF direto na página -->
+    <iframe src="starbucks_cardapio.pdf" class="pdf-container"></iframe>
+</body>
+
+</html>
