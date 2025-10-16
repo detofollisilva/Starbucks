@@ -17,9 +17,6 @@ Exibe o conceito “It’s not just Coffee, It’s Starbucks”, com botões int
 📄 **Página de cardápio:**  
 Apresenta o cardápio oficial em formato PDF dentro do próprio site.
 
-🔗 **Acesse meu LinkedIn:**  
-[![LinkedIn]([https://img.shields.io/badge/Fabio%20Silva-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabio-detofolli-silva-31b52716b/](https://www.linkedin.com/in/fabio-detofolli-silva-31b52716b/))
-
 ---
 
 ## 🧠 Tecnologias utilizadas  
